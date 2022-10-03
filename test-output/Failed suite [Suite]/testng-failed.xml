@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]">
+  <test thread-count="5" name="Regression(failed)(failed)">
+    <parameter name="browsername" value="chrome"/>
+    <classes>
+      <class name="com.firebase.test.tests.AutomationScripts">
+        <methods>
+          <include name="ForgetPassword"/>
+          <include name="ValidCredentials"/>
+          <include name="tearDownAfterTest"/>
+          <include name="SetUp"/>
+          <include name="tearDown"/>
+          <include name="setupBeforeTest"/>
+          <include name="RememberMeCheckBox"/>
+          <include name="TC05SelectUserMenu"/>
+          <include name="InvalidCredentials"/>
+          <include name="TC08DeveloperConsole"/>
+          <include name="WithoutPassword"/>
+        </methods>
+      </class> <!-- com.firebase.test.tests.AutomationScripts -->
+    </classes>
+  </test> <!-- Regression(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->
